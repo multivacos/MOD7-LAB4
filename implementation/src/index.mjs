@@ -91,7 +91,6 @@ export const handler = async (event) => {
 
   // ── POST /clientes/{clienteId}/cuentas (para Lab Propuesto) ──
   // --- LABORATORIO PROPUESTO: DESCOMENTAR PARA IMPLEMENTAR EL POST ---
-  /*
   if (httpMethod === "POST") {
     let body;
     try {
@@ -143,7 +142,6 @@ export const handler = async (event) => {
       body: JSON.stringify(nuevaCuenta),
     };
   }
-  */
 
   // ── Método no soportado ──
   return {
